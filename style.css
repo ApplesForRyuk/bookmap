@@ -1,0 +1,144 @@
+
+@import url('https://css.gg/search.css');
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  article {
+    font-weight:400;
+
+  }
+  
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  img {
+    width:  425px;
+    height: 425px;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+ html {
+    background-color:saddlebrown;
+ }
+ .first-headline {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgb(165, 136, 56);
+    color: rgb(24, 17, 10);
+    
+ }
+
+ h2,
+ h3,
+ li,
+ article{
+  font-family: 'Space Mono', monospace;
+ }
+
+ .button-lr {
+ 
+  background: url("https://i.pinimg.com/originals/75/3e/ae/753eaefd8dfcf8656032b2a0e1c427aa.jpg");
+  
+ }
+
+ .button-hw{
+  background: url("https://i.pinimg.com/736x/12/6d/55/126d55fd7aacb11aecaaca1f09283a06--magical-thinking-book-to-read.jpg");
+ }
+
+ .button-of{
+  background: url("https://i.pinimg.com/736x/6b/8c/dd/6b8cdd7c9e47f0aeea747f60b8bccfa3--library-bookshelves-stylish-office.jpg");
+ }
+
+ .button-br {
+  background: url("https://i.pinimg.com/736x/d4/55/f3/d455f39b5b22b5cd7ae4a7d0b8c40bf2--small-rooms-small-spaces.jpg");
+ }
+
+ .button-lr:hover,
+ .button-hw:hover,
+ .button-br:hover,
+ .button-of:hover {
+
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+  transform: scale(0.95);
+ }
+
+ .button-hw,
+ .button-lr,
+ .button-of,
+ .button-br {
+  padding: 0em;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 550px;
+  font-size: 3em;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: match-parent;
+  top: 50px;
+  color:firebrick ;
+  position: relative;
+  border: 3px solid rgb(73, 22, 22);
+  border-radius: 5px;
+  transition-duration: 0.60s;
+  box-shadow: 0 30px 60px rgba(0,0,0,.5);
+  background-size: cover;
+ }
+
+ h4 {
+  text-align:center;
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+ }
+
+ footer {
+  margin-bottom: 10px;
+  margin-top: 100px;
+  position: left;
+ }
+
+form {
+  position:relative;
+  right: 0cm;
+  float: right;
+  border-radius: 50%;
+  
+}
+
+.random {
+ float: left;
+ margin-bottom: 30px;
+}
+
+.generate-now {
+  left: 5px;
+}
+  
+ 
+
